@@ -6,11 +6,11 @@ public class Student {
     Double chemistry;
     public Student (){};
 
-    public Student (String name, String phoneNumber, Double math, Double sc, Double ch){
+    public Student (String name, String phoneNumber, Double math, Double sci, Double ch){
         this.name = name;
         this.phoneNumber = phoneNumber;
         this.math = math;
-        this.science = sc;
+        this.science = sci;
         this.chemistry = ch;
 
     }
